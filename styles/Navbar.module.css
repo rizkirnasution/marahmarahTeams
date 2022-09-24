@@ -1,0 +1,26 @@
+.img{
+    width: 127px;
+    height: 35px;
+}
+.login {
+    color: #5E50A1;
+    border: 1px solid #5E50A1;
+    text-align: center;
+  }
+  
+ .register {
+    text-align: center;
+    background-color: #5E50A1;
+    color: white !important;
+    border: 1px solid #5E50A1;
+  }
+
+  .land{
+    border: 2px solid #5E50A1;
+    color: #5E50A1;
+  }
+
+  .land:hover{
+    color:white;
+    background-color: #5E50A1 !important;
+  }
