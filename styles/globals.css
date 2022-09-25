@@ -19,6 +19,9 @@ a {
   width: 700px;
   height: 100%;
 }
+card{
+  object-fit: cover !important;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
