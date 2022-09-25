@@ -1,0 +1,25 @@
+
+.login {
+    color: #5E50A1;
+    border: 1px solid #5E50A1;
+    text-align: center;
+}
+.border_none{
+    border: none !important;
+}
+.drop_down_custom{
+    border: 1px solid #5E50A1;
+    color: #5E50A1;
+    width: 50px !important;
+    text-align: center;
+    margin-left: -30px !important;
+}
+.line{
+    background: #5E50A1 !important;
+}
+.color{
+    color: #5E50A1;
+}
+.color:hover{
+    color: #5E50A1;
+}
