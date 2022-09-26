@@ -99,13 +99,15 @@ export default function RegisterWorkerForm({
           
               />
           
-              <button
-                type="submit"
-                className="btn btn-warning submit text-white w-100 mt-3"
-              
-              >
-                Daftar
-              </button>
+            <Link href='/login'>
+                <button
+                  type="submit"
+                  className="btn btn-warning submit text-white w-100 mt-3"
+                
+                >
+                  Daftar
+                </button>
+              </Link>
               <br />
               <label className="dont-have-an-account-text align-self-center">
                 Dont You Have An Account?

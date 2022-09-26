@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <footer className='desktop-bottom'>
+    <footer className=' desktop-bottom '>
         <div className='container_footer'>
-            <div className='container content-footer'>
+            <div className='container-sm content-footer'>
                 <Image src={Icon}/>
                 <p className='w-25 my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
                 <hr/>

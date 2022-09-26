@@ -1,0 +1,46 @@
+{
+  "users": [
+    { 
+      "id": 1, 
+      "name": "Rizki Nasution", 
+      "job": "Web Developer",
+      "skill": ["Javascript", "boostrap", "Reactjs"],
+      "address": "Bogor, Jawa Barat"
+   },
+   { 
+      "id": 2, 
+      "name": "Justin Bieber", 
+      "job": "Web Developer",
+      "skill": ["Javascript", "CSS", "Reactjs"],
+      "address": "Canada, USA"
+   },
+   { 
+      "id": 3, 
+      "name": "Lee Taeyong", 
+      "job": "Web Developer",
+      "skill": ["Javascript", "boostrap", "Posgresql"],
+      "address": "Seoul, South Korea"
+   },
+   { 
+      "id": 4, 
+      "name": "Nanami Kento", 
+      "job": "Web Developer",
+      "skill": ["Javascript", "Reactjs", "Reactjs"],
+      "address": "Tokyo, Jepun"
+   }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { 
+      "id": 1,
+      "name": "Rizki Romadhona Nasution",
+      "location": "Bogor, Jawa Barat",
+      "job": "Web Developer",
+      "jobSkill": "Fullstack Web Developer",
+      "skill": [
+          "PHP", "Javascrip", "HTML",
+          "CSS", "boostrap", "Reactjs"
+      ]
+}
+}

@@ -7,6 +7,7 @@ import Background from "../../assets/login/login.png"
 import Logo from "../../assets/logo/logo-white.svg";
 // import PasswordInput from "../../atoms/PasswordInput";
 
+
 export default function LoginForm({
 
 }) {
@@ -68,6 +69,8 @@ export default function LoginForm({
                   Forgot password?
                 </label>
               </div>
+            
+              <Link href='/home'>
               <button
                 type="submit"
                 className="btn btn-warning submit text-white w-100 mt-3"
@@ -75,10 +78,11 @@ export default function LoginForm({
               >
                 Login
               </button>
+            </Link>
               <br />
               <label className="dont-have-an-account-text align-self-center">
                 Dont You Have An Account?
-                <Link className="signup-text ms-1" href="/register">
+                <Link className="signup-text ms-1" href="/register/worker">
                   Sign Up Here
                 </Link>
               </label>
