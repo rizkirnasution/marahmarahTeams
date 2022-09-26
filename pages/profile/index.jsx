@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useEffect, Fragment } from "react";
-import Navbar from "../../components/navbar/index";
+import Navbar from "../../components/navbar/Navbar";
 
 import Porto from "../../components/portofolio/index";
 import Pengalaman from "../../components/pengalamankerja/index";

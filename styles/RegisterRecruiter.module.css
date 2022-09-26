@@ -141,8 +141,8 @@
   } */
   
   .backdroplogin {
-    height: 94vh;
-    width: 60%;
+    height: 130vh;
+    width: 80%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
    
@@ -159,8 +159,8 @@
   .form_login {
     justify-content: center;
     text-align: center;
-    width: 70%;
-    margin: auto 20px;
+    width: 100%;
+    margin: auto 25px;
   }
   .container_form {
     width: 100%;
@@ -170,6 +170,11 @@
     .backdroplogin {
       display: none;
     }
+    
+  .form_login {
+    width: 60%;
+    margin: auto 25px;
+  }
   }
   
   /* @media screen and (max-width: 1200px) {

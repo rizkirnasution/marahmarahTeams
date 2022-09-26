@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import styles from "../../styles/Login.module.css";
+import styles from "../../styles/RegisterWorker.module.css";
 import Background from "../../assets/login/login.png"
 import Logo from "../../assets/logo/logo-white.svg";
 // import PasswordInput from "../../atoms/PasswordInput";
@@ -32,9 +32,9 @@ export default function RegisterWorkerForm({
             <h1 className="text-white mx-5">Temukan developer berbakat & terbaik di berbagai bidang keahlian</h1>
           </div>
         </div>
-        <div className="container ">
+        <div className={styles.container_form}>
           <div className="column d-flex align-items-center justify-content-start">
-            <form className="login text-center w-100">
+            <form className={styles.form_login}>
               <h1 className="text-center title-text">
                 <b>Halo, Pweapeople</b>
               </h1>

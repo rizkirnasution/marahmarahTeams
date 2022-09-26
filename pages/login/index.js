@@ -32,9 +32,9 @@ export default function LoginForm({
             <h1 className="text-white mx-5">Temukan developer berbakat & terbaik di berbagai bidang keahlian</h1>
           </div>
         </div>
-        <div className="container ">
+        <div className={styles.container_form}>
           <div className="column d-flex align-items-center justify-content-start">
-            <form className="login text-center w-100">
+            <form className={styles.form_login}>
               <h1 className="text-center title-text">
                 <b>Halo, Pweapeople</b>
               </h1>

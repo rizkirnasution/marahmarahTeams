@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+
 const Home = () => {
   return (
     <div>
@@ -63,14 +64,7 @@ const Home = () => {
               />
             </div>
             <div className="col-6 mt-5">
-              {/* <h2 className="mt-5">Kenapa harus mencari tallent di peworld</h2>
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul> */}
-
+            
             <div className='contain-text mt-3'>
                 <h1>Kenapa harus mencari tallent di peworld</h1>
                 <ul className='daftar me-5'>
@@ -119,7 +113,8 @@ const Home = () => {
 
           <div className='container_content3'>
             <h1 className='text-center'>Their opinion about peworld</h1>
-              <Swiper className='container container_swiper'
+
+              <Swiper className='container container_swiper me-2'
               modules={[Pagination, Navigation]}
               spaceBetween={20}
               slidesPerView={3}
@@ -205,6 +200,7 @@ const Home = () => {
               
             </Swiper>
             
+            {/* <ProfileOwl/> */}
             
         </div>
 
