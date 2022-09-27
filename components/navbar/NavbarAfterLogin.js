@@ -12,7 +12,7 @@ function Navbar() {
             <div className="container-fluid">
                 <Link href='/'>
                     <a className="navbar-brand ms-5" href="#">
-                        <Image src={Icon}></Image>
+                        <Image src={Icon} alt="icon"></Image>
                     </a>
                 </Link>
                 <div className={`${styles.border_none} nav-item mx-3 my-1 `}>

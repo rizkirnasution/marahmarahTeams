@@ -3,6 +3,8 @@ import Image from "next/image"
 import baner1 from '../../assets/image/baner1.svg'
 import baner2 from '../../assets/image/baner2.svg'
 import swal1 from '../../assets/image/swal1.svg'
+import swal2 from '../../assets/harry.svg'
+import swal3 from '../../assets/louis.svg'
 import baner3 from '../../assets/image/baner3.svg'
 import test from '../../assets/image/test.svg'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -34,7 +36,7 @@ function Baner() {
         </div>
         <div className=''>
             <div className=''>
-                <Image src={baner1} />
+                <Image src={baner1} alt="Landing 1" />
             </div>
         </div>
         
@@ -42,7 +44,7 @@ function Baner() {
     <div className='container-sm container_content1'>
         <div className='container-sm contain-text'>
             <div>
-                <Image src={baner2} />
+                <Image src={baner2} alt="Landing 2" />
             </div>
         </div>
         <div className='d-flex flex-column w-100 '>
@@ -77,7 +79,7 @@ function Baner() {
         </div>
         <div className='container_img d-flex justify-content-center align-items-center'>
             <div className='contain-img3'>
-                <Image src={baner3} />
+                <Image src={baner3} alt="Landing 3"/>
             </div>
         </div>
         
@@ -116,7 +118,22 @@ function Baner() {
         <div className='Card'>
             <div className='bg-img'>
                 <div className="card-img ">
-                    <Image src={swal1} className="img7"/>
+                    <Image src={swal2} className="img7" alt='swal1'/>
+                </div>
+                
+            </div>
+            <div  className='card-text '>
+                    <h3 className=''>Harry Styles</h3>
+                    <span className='fw-light'>Web Developer</span>
+                    <p className='w-75 ms-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+        </div>
+    </SwiperSlide>
+    <SwiperSlide  className=''>
+        <div className='Card'>
+            <div className='bg-img'>
+                <div className="card-img ">
+                    <Image src={swal1} className="img7" alt='swal2'/>
                 </div>
                 
             </div>
@@ -131,27 +148,12 @@ function Baner() {
         <div className='Card'>
             <div className='bg-img'>
                 <div className="card-img ">
-                    <Image src={swal1} className="img7"/>
+                    <Image src={swal3} className="img7" alt='swal3'/>
                 </div>
                 
             </div>
             <div  className='card-text '>
-                    <h3 className=''>Niall Horan</h3>
-                    <span className='fw-light'>Web Developer</span>
-                    <p className='w-75 ms-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                </div>
-        </div>
-    </SwiperSlide>
-    <SwiperSlide  className=''>
-        <div className='Card'>
-            <div className='bg-img'>
-                <div className="card-img ">
-                    <Image src={swal1} className="img7"/>
-                </div>
-                
-            </div>
-            <div  className='card-text '>
-                    <h3 className=''>Niall Horan</h3>
+                    <h3 className=''>Louis Thomlison</h3>
                     <span className='fw-light'>Web Developer</span>
                     <p className='w-75 ms-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
@@ -161,7 +163,7 @@ function Baner() {
         <div className='Card'>
             <div className='bg-img'>
                 <div className="card-img ">
-                    <Image src={swal1} className="img7"/>
+                    <Image src={swal1} className="img7" alt='swal4'/>
                 </div>
                 
             </div>

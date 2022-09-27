@@ -39,7 +39,7 @@ export default function Detail({}) {
             <input placeholder="Search for any skill" />
             <div className="dropdown d-flex flex-row justify-content-center align-items-center">
               <button
-                class="btn btn-secondary dropdown-toggle"
+                class="btn btn-warning dropdown-toggle"
                 type="button"
                 id="registerDropdown"
                 data-bs-toggle="dropdown"
@@ -50,22 +50,22 @@ export default function Detail({}) {
               <ul class="dropdown-menu" aria-labelledby="registerDropdown">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Name
+                  Sortir berdasarkan Nama
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Position
+                  Sortir berdasarkan Position
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Skill
+                  Sortir berdasarkan Skill
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Location
+                  Sortir berdasarkan Location
                   </a>
                 </li>
               </ul>

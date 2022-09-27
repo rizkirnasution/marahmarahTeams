@@ -1,13 +1,15 @@
 import Head from "next/head";
 import React, { useEffect, Fragment } from "react";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar/NavbarDetail";
 import Footer from '../components/footer/Footer'
 import Image from "next/image";
 import UploadImage from "../assets/image/upload_image.png";
 
 import ImageProfile from "../assets/image/profile.svg";
+import axios from "axios"
 
 const Profile = () => {
+
   return (
     <div>
       <style global jsx>{``}</style>
@@ -29,9 +31,9 @@ const Profile = () => {
                     height="1"
                     alt="Profile"
                   />
-                  <h3>Taryana</h3>
+                  <h3>Rizki Romadhona Nasution</h3>
                   <h5>Web Developer</h5>
-                  <p>Indramayu, Jawa Barat</p>
+                  <p>Bogor, Jawa Barat</p>
                   <p>Freelancer</p>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

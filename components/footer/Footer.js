@@ -8,7 +8,7 @@ function Footer() {
     <footer className=' desktop-bottom '>
         <div className='container_footer'>
             <div className='container-sm content-footer'>
-                <Image src={Icon}/>
+                <Image src={Icon} alt="icon"/>
                 <p className='w-25 my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
                 <hr/>
                 <div className='d-flex justify-content-between my-4'>

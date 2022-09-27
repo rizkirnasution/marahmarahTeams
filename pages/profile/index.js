@@ -7,6 +7,7 @@ import Pengalaman from "../../components/pengalamankerja/index";
 import Footer from '../../components/footer/Footer'
 import Image from "next/image";
 import PhotoProfile from "../../assets/profile.svg";
+import Link from "next/link";
 
 import axios from "axios";
 
@@ -37,6 +38,7 @@ const Profile = () => {
             <div className="col-4 mb-5">
               <div className="card">
                 <div className="card-body">
+                  <Link href="/edit-profile">
                   <Image
                     src={PhotoProfile}
                     layout="responsive"
@@ -44,6 +46,7 @@ const Profile = () => {
                     height="1"
                     alt="Photo Profile"
                   />
+                  </Link>
                   <h3>{data.name}</h3>
                   <h5>{data.jobSkill}</h5>
                   <p>{data.location}</p>

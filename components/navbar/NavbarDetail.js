@@ -15,7 +15,7 @@ function Navbar() {
             <div className="container-fluid">
                 <Link href='/home'>
                     <a className="navbar-brand ms-5" href="">
-                        <Image src={Icon}></Image>
+                        <Image src={Icon} alt="icon"></Image>
                     </a>
                 </Link>
                 
