@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from "next/script"
 import Image from 'next/image'
-import Navbar from '../../components/Navbar/NavbarAfterLogin'
+import Navbar from '../../components/navbar/NavbarAfterLogin'
 import styles from '../../styles/Home.module.css'
 import { Fragment } from 'react'
 import Baner from '../../components/header/Baner'

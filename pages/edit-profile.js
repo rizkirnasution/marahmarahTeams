@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useEffect, Fragment } from "react";
-import Navbar from "../components/Navbar/NavbarDetail";
+import Navbar from "../components/navbar/NavbarDetail";
 import Footer from '../components/footer/Footer'
 import Image from "next/image";
 import UploadImage from "../assets/image/upload_image.png";

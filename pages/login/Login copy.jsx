@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import styles from "../../styles/Login.module.css";
-import Logo from "../../assets/logo/logo-white";
+import Logo from "../../assets/logo/logo-white.svg";
 // import PasswordInput from "../../atoms/PasswordInput";
 
 export default function LoginForm({
