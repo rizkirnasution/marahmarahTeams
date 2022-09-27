@@ -91,7 +91,7 @@ export default function RegisterWorkerForm({
                Confirm Password
               </label>
               <input
-                type="confirmpassword"
+                type="password"
                 name="confirmpassword"
                 className="login form-control my-2"
             
@@ -110,7 +110,7 @@ export default function RegisterWorkerForm({
               </Link>
               <br />
               <label className="dont-have-an-account-text align-self-center">
-                Dont You Have An Account?
+                Already Have An Account?
                 <Link className="signup-text ms-1" href="/login">
                   Login Here
                 </Link>
